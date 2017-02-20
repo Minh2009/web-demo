@@ -46,4 +46,60 @@
     {
         width: 30px;
     }
+
+    .logo
+    {
+        width: 40px;
+    }
+}
+
+@media only screen and (min-width : 992px) {
+    .topbar.row
+    {
+        margin-top: 10px;
+        font-size: 45px;
+        margin-left: 20%;
+    }
+
+    /*choose language*/
+    .cl
+    {
+        margin-top: 8px;
+
+    }
+    /*btm cart*/
+    .btm
+    {
+        width: 200px;
+        height: 40px;
+        margin-top: 5px
+    }
+    /*img cart*/
+    .img-cart
+    {
+        width: 50px;
+        height: 50px;
+    }
+
+    .card.col-xs-8
+    {
+        padding-left: 20%;
+    }
+
+    .div-icon
+    {
+        display: inline-block;
+        margin-left: 60px;
+    }
+
+    .icon
+    {
+        width: 50px;
+        margin-left: 20px;
+    }
+
+    .logo
+    {
+        width: 40px;
+    }
 }
