@@ -359,7 +359,7 @@
 
 }
 
-@media only screen and (min-width : 992px) {
+@media only screen and (min-width : 1200px) {
     .topbar.row
     {
         font-size: 50px;
@@ -387,11 +387,24 @@
     .big-title.row
     {
         padding-left: 20%;
+        padding-top: 100px;
+        padding-bottom: 100px;
     }
     .title
     {
         font-size: 100px;
+        display: inline-block;
+        width: 1600px;
     }
+    .link
+    {
+        font-size: 50px;
+        display: inline-block;
+        position: absolute;
+        padding-top: 40px;
+        padding-left: 900px;
+    }
+
 
     .logo
     {
@@ -449,5 +462,149 @@
         position: absolute;
         margin-top: -14px;
         margin-left: -24px;
+    }
+
+
+
+    .tabs.container
+    {
+        font-size: 50px;
+        width: 1900px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .navigation
+    {
+        padding-bottom: 40px;
+    }
+    .works-item
+    {
+        font-size: 80px;
+        padding-top: 300px;
+        padding-bottom: 300px;
+    }
+
+    .date
+    {
+        font-size: 50px;
+    }
+
+    .intro-img
+    {
+        width: 150px;
+    }
+
+    .intro-tit
+    {
+        font-size: 70px;
+        margin-left: 20px;
+    }
+
+    .intro-item
+    {
+        margin-top: 100px;
+        height: 500px;
+    }
+
+    .intro-body
+    {
+        font-size: 50px;
+        margin-left: 180px;
+    }
+
+    .introducting-work.container-fluid
+    {
+        padding-left: 1100px;
+        padding-right: 1100px;
+        padding-top: 500px;
+        padding-bottom: 500px;
+    }
+
+    #pro-txt1
+    {
+        font-size: 110px;
+        margin-bottom: 60px;
+    }
+
+    #pro-txt2
+    {
+        font-size: 60px;
+    }
+    .pro-btn.col-xs-5
+    {
+        font-size: 70px;
+        width: 800px;
+        height: 300px;
+    }
+
+    #div-btn
+    {
+        padding-left: 1900px;
+        margin-top: 200px;
+    }
+    .promo.container-fluid
+    {
+        padding-top: 300px;
+        padding-bottom: 300px;
+    }
+
+    .floot.container-fluid
+    {
+        padding-top: 400px;
+        padding-bottom: 400px;
+        padding-left: 500px;
+        padding-right: 500px;
+    }
+
+    .fl-tit
+    {
+        font-size: 60px;
+        margin-bottom: 100px;
+    }
+
+    .line
+    {
+        width: 190px;
+        border-bottom: 15px solid #1abc9c;
+    }
+
+    .fl-txt-1
+    {
+        font-size: 42px;
+    }
+
+    .fl-txt-2
+    {
+        font-size: 35px;
+    }
+
+    .fl-body.col-lg-3
+    {
+        width: 900px;
+        margin-left: 100px;
+    }
+
+    .btm-bar
+    {
+        padding-bottom: 100px;
+    }
+
+    .btm-bar-txt
+    {
+        font-size: 50px;
+        display: inline-block;
+        padding-top: 100px;
+        padding-left: 600px;
+    }
+
+    .div-icon.btm-bar-icon
+    {
+        margin-left: 2000px;
+    }
+
+    .learn
+    {
+        font-size: 60px;
+        margin-top: 50px;
     }
 }
